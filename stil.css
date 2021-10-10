@@ -8,8 +8,37 @@ header {
   background-color: black;
 }
 
+.loggaS{
+ margin-top: -180px;
+ background-color: black;
+ margin-bottom: -110px;
+ display: flex;
+ justify-content: center;
+}
+
 nav {
-  background-color: grey;
+  background-color: #808080;
+  padding: 40px;
+ 
+}
+
+.länkar {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+a{
+font-size: 30px;
+text-decoration: none;
+color: white;
+}
+
+a:hover {
+
+  text-decoration: underline;
+
 }
 
 main{
