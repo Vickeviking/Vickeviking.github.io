@@ -1,0 +1,23 @@
+.rubrik {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  color: white;
+  background-color: black;
+}
+
+nav {
+  background-color: grey;
+}
+
+main{
+background-color: honeydew;
+
+
+}
+.simon {
+  width:100px;
+  margin-left: 100px;
+}
