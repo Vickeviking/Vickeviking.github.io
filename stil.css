@@ -1,26 +1,73 @@
+body{
+  background-color: burlywood;
+}
+
 .rubrik {
   display: flex;
   justify-content: center;
+ 
 }
 
 header {
   color: white;
-  background-color: black;
 }
 
 .loggaS{
  margin-top: -180px;
  background-color: black;
- margin-bottom: -110px;
+ margin-bottom: -140px;
  display: flex;
  justify-content: center;
+ margin-left: -10%;
+ margin-right: -10%;
 }
 
 nav {
   background-color: #808080;
   padding: 40px;
+  margin-top: -40px;
+  margin-left: -10%;
+  margin-right: -10%;
  
 }
+
+.bildspel{
+  display: flex;
+justify-content: flex-start;
+background-color: burlywood;
+}
+
+.VeckansMatcher h1{
+color: black;
+font-size: 40px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.VeckansMatcher{
+  background-color: blanchedalmond;
+  border-bottom: 200px;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.VeckansMatcher u{
+
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+
+  text-decoration: none;
+  display: list-item;                                         
+  list-style-type: disc;          
+  list-style-position: inside;
+  margin-left: 20px;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
 
 .länkar {
   display: flex;
@@ -49,4 +96,12 @@ background-color: honeydew;
 .simon {
   width:100px;
   margin-left: 100px;
+}
+
+.bildspelBild{
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+  border-left: blanchedalmond;
 }
