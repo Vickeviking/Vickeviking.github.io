@@ -39,7 +39,6 @@ margin-right: 10px;
   background-color: blanchedalmond;
   border-bottom: 200px;
   margin-left: 140px;
-  margin-top: 20px;
 }
 
 .VeckansMatcher u{
@@ -53,9 +52,21 @@ margin-right: 10px;
   list-style-type: disc;          
   list-style-position: inside;
 
-  font-size: 25px;
+  font-size: 24px;
   font-weight: bold;
 }
+
+.VeckansMatcher u+u{
+  margin: 10px;
+}
+
+.VeckansMatcher h1{
+
+  font-size: 30px;
+
+}
+
+
 
 
 
@@ -81,7 +92,13 @@ a:hover {
 }
 
 main{
-background-color: honeydew;
+background-color: burlywood;
+display: flex;
+justify-content: space-evenly;
+padding-top: 40px;
+padding-bottom: 300px;
+
+
 }
 
 .simon {
@@ -94,3 +111,22 @@ background-color: honeydew;
   border-left: blanchedalmond;
 }
 
+footer a{
+
+font-size: 20px;
+
+}
+
+footer{
+
+display: flex;
+justify-content: space-around;
+background-color: #808080;
+padding: 40px;
+
+}
+
+.instaLogga{
+  width: 30px;
+  margin-left: 20px;
+}
