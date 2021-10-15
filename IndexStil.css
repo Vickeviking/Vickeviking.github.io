@@ -43,10 +43,7 @@ margin-right: 10px;
 
 .VeckansMatcher u{
 
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-
+  
   text-decoration: none;
   display: list-item;                                         
   list-style-type: disc;          
@@ -56,7 +53,7 @@ margin-right: 10px;
   font-weight: bold;
 }
 
-.VeckansMatcher u+u{
+.VeckansMatcher u{
   margin: 10px;
 }
 
