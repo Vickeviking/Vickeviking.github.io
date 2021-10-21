@@ -1,5 +1,5 @@
 body{
-  background-color: burlywood;
+  background-color: #1C121D;
   margin: 0;
 }
 
@@ -10,13 +10,14 @@ header {
 }
 
 .loggaS{
- background-color: #000000;
+ background-color: #272727;
  display: flex;
  justify-content: center;
 }
 
 nav {
-  background-color: #808080;
+  background-color: #9D4B5F;
+  padding: 20px;
 }
 
 
@@ -24,7 +25,7 @@ nav {
 .bildspel{
   display: flex;
 justify-content: flex-start;
-background-color: burlywood;
+background-color: #1C121D;
 margin:left 
 }
 
@@ -36,7 +37,7 @@ margin-right: 10px;
 }
 
 .VeckansMatcher{
-  background-color: blanchedalmond;
+  background-color: #817D9B;
   border-bottom: 200px;
   margin-left: 140px;
 }
@@ -89,7 +90,7 @@ a:hover {
 }
 
 main{
-background-color: burlywood;
+background-color: #1C121D;
 display: flex;
 justify-content: space-evenly;
 padding-top: 40px;
@@ -105,7 +106,8 @@ padding-bottom: 300px;
 
 .bildspelBild{
   width: 500px;
-  border-left: blanchedalmond;
+  border-radius: 5%;
+
 }
 
 footer a{
@@ -118,7 +120,7 @@ footer{
 
 display: flex;
 justify-content: space-around;
-background-color: #808080;
+background-color: #9D4B5F;
 padding: 40px;
 
 }
