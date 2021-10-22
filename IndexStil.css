@@ -1,5 +1,5 @@
 body{
-  background-color: #1C121D;
+  background-color: #272727;
   margin: 0;
 }
 
@@ -25,7 +25,7 @@ nav {
 .bildspel{
   display: flex;
 justify-content: flex-start;
-background-color: #1C121D;
+background-color: #817D9B;
 margin:left 
 }
 
@@ -37,7 +37,7 @@ margin-right: 10px;
 }
 
 .VeckansMatcher{
-  background-color: #817D9B;
+  background-color: #272727;
   border-bottom: 200px;
   margin-left: 140px;
 }
@@ -52,6 +52,7 @@ margin-right: 10px;
 
   font-size: 24px;
   font-weight: bold;
+  color: white;
 }
 
 .VeckansMatcher u{
@@ -61,6 +62,7 @@ margin-right: 10px;
 .VeckansMatcher h1{
 
   font-size: 30px;
+color: white;
 
 }
 
@@ -90,7 +92,7 @@ a:hover {
 }
 
 main{
-background-color: #1C121D;
+background-color: #817D9B;
 display: flex;
 justify-content: space-evenly;
 padding-top: 40px;
