@@ -12,6 +12,24 @@ header {
   color: white;
 }
 
+.länkar {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 nav {
   background-color: #9d4b5f;
   padding: 20px;
@@ -31,6 +49,12 @@ article {
   display: flex;
 }
 
+main {
+  background-color: #817d9b;
+}
+.BildSpel {
+  height: 100%;
+}
 .VeckansMatcher {
   background-color: #272727;
   font-size: 30px;
@@ -38,15 +62,11 @@ article {
   width: 500px;
 }
 
-.BildSpel {
-  height: 100%;
-}
-
 .VeckansMatcher h1 {
-  color: black;
+  color: white;
   font-size: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .VeckansMatcher u {
@@ -55,33 +75,21 @@ article {
   list-style-type: disc;
   list-style-position: inside;
 
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
-  margin: 10px;
+  margin: 10%;
 }
 
-.länkar {
+.Pose {
   display: flex;
-  justify-content: space-around;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  justify-content: center;
+  margin-bottom: 5%;
 }
 
-a {
-  font-size: 30px;
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-main {
-  background-color: #817d9b;
+.BildPose {
+  width: auto;
+  width: 100%;
 }
 
 .simon {
