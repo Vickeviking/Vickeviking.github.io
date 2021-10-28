@@ -1,74 +1,65 @@
-body{
-  background-color: #272727;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
+body {
+  background-color: #272727;
+}
 
 header {
   color: white;
 }
 
-.loggaS{
- background-color: #272727;
- display: flex;
- justify-content: center;
-}
-
 nav {
-  background-color: #9D4B5F;
+  background-color: #9d4b5f;
   padding: 20px;
 }
 
-
-
-.bildspel{
-  display: flex;
-justify-content: flex-start;
-background-color: #817D9B;
-margin:left 
+article {
+  margin: none;
 }
 
-.VeckansMatcher h1{
-color: black;
-font-size: 40px;
-margin-left: 10px;
-margin-right: 10px;
-}
-
-.VeckansMatcher{
+.center {
   background-color: #272727;
-  border-bottom: 200px;
-  margin-left: 140px;
+  display: flex;
+  justify-content: center;
 }
 
-.VeckansMatcher u{
+.flex {
+  display: flex;
+}
 
-  
+.VeckansMatcher {
+  background-color: #272727;
+  font-size: 30px;
+  color: white;
+  width: 500px;
+}
+
+.BildSpel {
+  height: 100%;
+}
+
+.VeckansMatcher h1 {
+  color: black;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.VeckansMatcher u {
   text-decoration: none;
-  display: list-item;                                         
-  list-style-type: disc;          
+  display: list-item;
+  list-style-type: disc;
   list-style-position: inside;
 
   font-size: 24px;
   font-weight: bold;
   color: white;
-}
-
-.VeckansMatcher u{
   margin: 10px;
 }
-
-.VeckansMatcher h1{
-
-  font-size: 30px;
-color: white;
-
-}
-
-
-
-
 
 .länkar {
   display: flex;
@@ -79,55 +70,37 @@ color: white;
   padding-bottom: 15px;
 }
 
-a{
-font-size: 30px;
-text-decoration: none;
-color: white;
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
-
   text-decoration: underline;
-
 }
 
-main{
-background-color: #817D9B;
-display: flex;
-justify-content: space-evenly;
-padding-top: 40px;
-padding-bottom: 300px;
-
-
+main {
+  background-color: #817d9b;
 }
 
 .simon {
-  width:100px;
+  width: 100px;
   margin-left: 100px;
 }
 
-.bildspelBild{
-  width: 500px;
-  border-radius: 5%;
-
+footer a {
+  font-size: 20px;
 }
 
-footer a{
-
-font-size: 20px;
-
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #9d4b5f;
+  padding: 40px;
 }
 
-footer{
-
-display: flex;
-justify-content: space-around;
-background-color: #9D4B5F;
-padding: 40px;
-
-}
-
-.instaLogga{
+.instaLogga {
   width: 30px;
   margin-left: 20px;
 }
