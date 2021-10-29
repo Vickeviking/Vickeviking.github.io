@@ -50,7 +50,7 @@ article {
 }
 
 main {
-  background-color: #817d9b;
+  background-color: #272727;
 }
 .BildSpel {
   height: 100%;
@@ -67,6 +67,7 @@ main {
   font-size: 40px;
   margin-left: 15%;
   margin-right: 15%;
+  margin-top: 10%;
 }
 
 .VeckansMatcher u {
@@ -98,14 +99,14 @@ main {
 }
 
 footer a {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 footer {
   display: flex;
   justify-content: space-around;
   background-color: #9d4b5f;
-  padding: 40px;
+  padding: 50px;
 }
 
 .instaLogga {
