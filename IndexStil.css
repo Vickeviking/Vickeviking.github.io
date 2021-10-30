@@ -53,19 +53,21 @@ main {
   background-color: #272727;
 }
 .BildSpel {
-  height: 100%;
+  width: auto;
+  width: 75%;
 }
 .VeckansMatcher {
   background-color: #272727;
   font-size: 30px;
   color: white;
-  width: 500px;
+  width: auto;
+  width: 25%;
 }
 
 .VeckansMatcher h1 {
   color: white;
-  font-size: 40px;
-  margin-left: 15%;
+  font-size: 3vw;
+  margin-left: 10%;
   margin-right: 15%;
   margin-top: 10%;
 }
@@ -76,26 +78,33 @@ main {
   list-style-type: disc;
   list-style-position: inside;
 
-  font-size: 20px;
+  font-size: 1.2vw;
   font-weight: bold;
   color: white;
   margin: 10%;
+
+
 }
 
 .Pose {
+  
+  width: auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 5%;
 }
 
-.BildPose {
-  width: auto;
-  width: 100%;
+.FightBild{
+width: auto;
+width: 100%;
 }
 
-.simon {
-  width: 100px;
-  margin-left: 100px;
+.FightPicsFlex{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
 }
 
 footer a {
