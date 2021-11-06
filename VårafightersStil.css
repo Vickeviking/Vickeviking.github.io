@@ -8,9 +8,24 @@ header {
 }
 
 header {
-  background-color: black;
+  
+  text-align: center;
+  font-size: 30;
+  color: white;
+  background-color:black ;
   padding: 40px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+
+
+.LogganBox{
+  margin-left: 42.5%;
+  margin-top: 2%;
+}
+
 
 .länkar {
   display: flex;
