@@ -55,71 +55,16 @@ nav {
   justify-content: center;
 }
 
-.våraFightersarRad2 {
-  display: flex;
-  justify-content: center;
-}
-
-.ViktorBild {
-  width: auto;
-  width: 300px;
-}
-
-.Viktor {
+.PersonArtikel {
   background-color: #272727;
   margin: 2%;
 }
 
-.LiBild {
+.Bild {
   width: auto;
   width: 300px;
 }
 
-.Li {
-  background-color: #272727;
-  margin: 2%;
-}
-
-.SimonBild {
-  width: auto;
-  width: 300px;
-}
-
-.Simon {
-  background-color: #272727;
-  margin: 2%;
-}
-
-
-.WilliamBild {
-  width: auto;
-  width: 300px;
-}
-
-.William {
-  background-color: #272727;
-  margin: 2%;
-}
-
-.AlexandarBild {
-  width: auto;
-  width: 300px;
-}
-
-.Alexandar {
-  background-color: #272727;
-  margin: 2%;
-}
-
-.AstorBild {
-  width: auto;
-  width: 300px;
-}
-
-.Astor {
-  background-color: #272727;
-  margin: 2%;
-}
 article {
   text-align: center;
   color: white;
