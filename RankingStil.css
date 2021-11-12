@@ -1,14 +1,12 @@
-body{
-  background-color: black;
+body {
+  background-color:black;
 }
 
-
 header {
-  
   text-align: center;
   font-size: 30;
   color: white;
-  background-color:black ;
+  background-color: black;
   padding: 40px;
 
   display: flex;
@@ -17,34 +15,72 @@ header {
 }
 
 
-.LogganBox{
+.länkar {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+nav {
+  background-color: #9d4b5f;
+  padding: 20px;
+}
+.LogganBox {
   margin-left: 42.5%;
   margin-top: 2%;
 }
 
+main{
+  display: flex;
+  justify-content: center;
+}
 
+table {
+  color: white;
+  justify-content: flex-start;
+  border-spacing: 0px;
+  margin-left: 2%;
+  margin-top: 5%;
+  font-size: 32px;
 
+}
 
+.pokalen{
+  margin-top: 5%;
+  margin-right: 5%;
+}
 
-.länkar {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  
-  a {
-    font-size: 30px;
-    text-decoration: none;
-    color: white;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  nav {
-    background-color: #9d4b5f;
-    padding: 20px;
-  }
+tr:first-child {
+  background-color: maroon;
+}
+
+tr:nth-child(even) {
+  background-color: #ccc;
+  color: black;
+}
+
+tr:nth-child(odd) {
+  background-color: gray;
+  color: black;
+}
+
+th, td {
+  padding: 25px;
+  text-align: center; 
+}
+
+h2{
+  font-size: 18px;
+}
