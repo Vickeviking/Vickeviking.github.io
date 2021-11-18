@@ -1,13 +1,12 @@
-body{
-background-color: black;
+body {
+  background-color: black;
 }
 
 header {
-  
   text-align: center;
   font-size: 30;
   color: white;
-  background-color:black ;
+  background-color: black;
   padding: 40px;
 
   display: flex;
@@ -15,34 +14,48 @@ header {
   flex-direction: column;
 }
 
-
-.LogganBox{
+.LogganBox {
   margin-left: 42.5%;
   margin-top: 2%;
 }
 
-
-
-
 .länkar {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
+  display: flex;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+nav {
+  background-color: #9d4b5f;
+  padding: 20px;
+}
+
+.Kontakt {
+  color: white;
+  background-color: grey;
+  width: 50%;
+  margin: 5%;
+  padding-bottom: 5%;
   
-  a {
-    font-size: 30px;
-    text-decoration: none;
-    color: white;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  nav {
-    background-color: #9d4b5f;
-    padding: 20px;
-  }
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  font-size: 32px;
+}
