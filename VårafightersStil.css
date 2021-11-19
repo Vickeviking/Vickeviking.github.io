@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
 }
@@ -8,11 +12,10 @@ header {
 }
 
 header {
-  
   text-align: center;
   font-size: 30;
   color: white;
-  background-color:black ;
+  background-color: black;
   padding: 40px;
 
   display: flex;
@@ -20,12 +23,10 @@ header {
   flex-direction: column;
 }
 
-
-.LogganBox{
+.LogganBox {
   margin-left: 42.5%;
   margin-top: 2%;
 }
-
 
 .länkar {
   display: flex;
@@ -53,11 +54,16 @@ nav {
 .våraFightersar {
   display: flex;
   justify-content: center;
+  gap: 2vw;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .PersonArtikel {
   background-color: #272727;
-  margin: 2%;
+  padding: 1em;
+  margin-top: 1em;
+  max-width: 330px;
 }
 
 .Bild {
